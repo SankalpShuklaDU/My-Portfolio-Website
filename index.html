@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sankalp - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sankalp's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="leftsection"> Hi, My name is
+                <div class="name"> Sankalp Shukla </div>
+                <div>and I am a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
+
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Frontend Developer', 'Video Editor'],
+                typeSpeed: 50,
+            });
+        </script>
+
+
+        <section class="aboutme" id="aboutme">
+            <div class="container">
+                <div class="profile">
+                    <img src="sanprofile.jpg" alt="">
+                </div>
+                <div class="aboutprofile">
+                    <h2> About
+                        <span> Me </span>
+                    </h2>
+                    <p>I am a B.Sc. Mathematics Honours student at <span> Ramjas College, University of Delhi. </span>
+                        I enjoy solving problems and building creative web experiences using modern technologies.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="skills" id="skills">
+            <h1> Skills </h1>
+            <div class="skill-list">
+                <div class="skill-card">
+                    <h2> HTML </h2>
+                    <p> "The backbone of every webpage I build. I use HTML to structure content with semantic clarity,
+                        ensuring accessibility, SEO optimization, and a solid foundation for dynamic web experiences.
+                    </p>
+                </div>
+
+
+                <div class="skill-card">
+                    <h2> CSS </h2>
+                    <p>I bring designs to life with CSS—crafting responsive layouts, elegant animations, and
+                        pixel-perfect styling. From Flexbox to Grid, I create interfaces that are both beautiful and
+                        functional across all devices.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h2> JAVASCRIPT</h2>
+                    <p>JavaScript is my tool for interactivity and logic. I use it to build dynamic features, handle
+                        user input, and create seamless experiences—from DOM manipulation to API integration and
+                        beyond.</p>
+
+                </div>
+
+                <div class="skill-card">
+                    <h2> SQL</h2>
+                    <p>Proficient in writing optimized queries, managing relational databases, and transforming data for
+                        analysis. Experienced with JOINs, indexing, stored procedures, and integrating SQL with backend
+                        systems. </p>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h1> My Projects </h1>
+            <div class="project-list">
+                <div class="project-card">
+                    <h2>Portfolio Website</h2>
+                    <p>A personal website showcasing my skills, experience, and contact information. Built with HTML,
+                        CSS,
+                        and JavaScript for a sleek, responsive design.</p>
+                    <a href="file:///C:/Users/Hp/OneDrive/Desktop/My%20Portfolio%20Website/index.html" class="btn">
+                        View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h2>Tic Tac Toe Game</h2>
+                    <p>A classic two-player game built with JavaScript. Features game logic, win detection, and a clean
+                        UI
+                        for interactive play.</p>
+                    <a href="file:///C:/Users/Hp/OneDrive/Desktop/Tic%20Tac-Toe%20Game/index.html" class="btn">Play Game</a>
+                </div>
+
+                <div class="project-card">
+                    <h2>Todo List</h2>
+                    <p>A dynamic task manager that lets users add, delete, and mark tasks as complete. Built using
+                        JavaScript with local storage support.</p>
+                    <a href="file:///C:/Users/Hp/OneDrive/Desktop/Todo%20List/index.html" class="btn">Try It Out</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h1>Contact Me</h1>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>Feel free to reach out for collaborations, questions, or just to say hello!</p>
+                    <ul>
+                        <li><strong>Email:</strong> sankalpshukla554@gmail.com</li>
+                        <li><strong>Phone:</strong> +91 987658****</li>
+                        <li><strong>Location:</strong> Delhi, India</li>
+                    </ul>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send a Message</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Sankalp Shukla. All rights reserved.</p>
+                <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+                <ul class="social-links">
+                    <li><a href="https://github.com/SankalpShuklaDU" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/sankalp-shukla-364209348?" target="_blank"
+                            rel="noopener">LinkedIn</a></li>
+                    <li><a href="mailto:sankalpshukla554@gmail.com">Email Me</a></li>
+                </ul>
+            </div>
+        </footer>
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
